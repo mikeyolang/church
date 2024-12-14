@@ -133,7 +133,7 @@ class _Add_ScreenState extends State<Add_Screen> {
               lastDate: DateTime(2100));
           if (newDate == Null) return;
           setState(() {
-            date = newDate!;
+            date = newDate;
           });
         },
         child: Text(
